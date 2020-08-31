@@ -6,6 +6,15 @@ window.Seed = (function () {
   const products = [
     {
       id: 1,
+      title: 'Widgets and Thingamabobs',
+      description: 'What does it do, and why?',
+      url: '#',
+      votes: generateVoteCount(),
+      submitterAvatarUrl: 'images/avatars/james.jpg',
+      productImageUrl: 'images/products/image-wonky.png',
+    },
+    {
+      id: 2,
       title: 'Yellow Pail',
       description: 'On-demand sand castle construction expertise.',
       url: '#',
@@ -14,7 +23,7 @@ window.Seed = (function () {
       productImageUrl: 'images/products/image-aqua.png',
     },
     {
-      id: 2,
+      id: 3,
       title: 'Supermajority: The Fantasy Congress League',
       description: 'Earn points when your favorite politicians pass legislation.',
       url: '#',
@@ -23,7 +32,7 @@ window.Seed = (function () {
       productImageUrl: 'images/products/image-rose.png',
     },
     {
-      id: 3,
+      id: 4,
       title: 'Tinfoild: Tailored tinfoil hats',
       description: 'We already have your measurements and shipping address.',
       url: '#',
@@ -32,14 +41,14 @@ window.Seed = (function () {
       productImageUrl: 'images/products/image-steel.png',
     },
     {
-      id: 4,
+      id: 5,
       title: 'Haught or Naught',
       description: 'High-minded or absent-minded? You decide.',
       url: '#',
       votes: generateVoteCount(),
       submitterAvatarUrl: 'images/avatars/molly.png',
       productImageUrl: 'images/products/image-yellow.png',
-    },
+    }
   ];
 
   return { products: products };
